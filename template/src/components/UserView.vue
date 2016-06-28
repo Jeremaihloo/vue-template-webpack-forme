@@ -74,9 +74,6 @@
                 console.log(response.data.Data);
             }); 
         },
-        components:{
-            Menu
-        },
         methods:{
             logout(){
                 juicycookie.rm('User');
